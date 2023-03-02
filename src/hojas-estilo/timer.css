@@ -1,6 +1,6 @@
 .contenedor-timer{
     background-color: rgb(247, 247, 247);
-    width: 100px;
+    width: 150px;
     padding: 1em;
     display: flex;
     flex-flow: column;
