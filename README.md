@@ -8,7 +8,7 @@ Para usar este componente, simplemente instala React en tu proyecto y agrega el 
 
 <br>
 
-<h2>💡 Posibles usos del componente de cronómetro<h2>
+<h2>💡 Posibles usos del componente de cronómetro</h2>
 
 Aquí hay algunas ideas de posibles usos para este componente de cronómetro:
 
