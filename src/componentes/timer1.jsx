@@ -1,10 +1,10 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import '../hojas-estilo/timer.css';
+import '../hojas-estilo/timer1.css';
 import { BsFillClockFill } from "react-icons/bs";
 
 
-function Timer({ tiempoInicial }) {
+function Timer1({ tiempoInicial }) {
 
   const [tiempo, setTiempo] = useState(tiempoInicial);
 
@@ -25,16 +25,16 @@ function Timer({ tiempoInicial }) {
   const seconds = tiempo % 60;
 
     return(
-        <div className="contenedor-timer">
-            <div className="contendor-timer-icono">
-                <div className="contenedor-timer-icono--icono" >
+        <div className="contenedor-timer-1">
+            <div className="contendor-timer-1-icono">
+                <div className="contenedor-timer-1-icono--icono" >
                     <BsFillClockFill
                     className="icono-bootstrap"
                     />
                 </div>
             </div>
-            <div className="contendor-timer-reloj">
-                <div className="contenedor-timer-reloj--live" >{`${minutes}:${seconds < 10 ? `0${seconds}` : seconds}`}</div>
+            <div className="contendor-timer-1-reloj">
+                <div className="contenedor-timer-1-reloj--live" >{`${minutes}:${seconds < 10 ? `0${seconds}` : seconds}`}</div>
             </div>
         </div>
     )
@@ -42,4 +42,4 @@ function Timer({ tiempoInicial }) {
 }
 
 
-export default Timer;
+export default Timer1;

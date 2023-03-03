@@ -1,25 +1,26 @@
-.contenedor-timer{
+.contenedor-timer-2{
     background-color: rgb(247, 247, 247);
-    width: 150px;
+    width: 80px;
     padding: 1em;
     display: flex;
-    flex-flow: column;
+    flex-flow: row;
+    justify-content: space-between;
     border-radius: .50em;
     border-top: 4px solid rgb(21, 95, 255);
 }
 
-.contendor-timer-icono{
+.contendor-timer-2-icono{
     height: 50%;
 }
-.contendor-timer-reloj{
+.contendor-timer-2-reloj{
     height: 50%;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     font-family: 'Tilt Warp', cursive;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .icono-bootstrap{
-    font-size: 1.5rem;
+    font-size: 1rem;
 }

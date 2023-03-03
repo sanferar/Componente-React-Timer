@@ -1,0 +1,30 @@
+.contenedor-timer-3{
+    background-color: rgb(247, 247, 247);
+    width: 40px;
+    padding: 1em;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    gap: .5em;
+    border-radius: .50em;
+    border-top: 4px solid rgb(21, 95, 255);
+}
+
+.contendor-timer-3-icono{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contendor-timer-3-reloj{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Tilt Warp', cursive;
+    font-size: 1rem;
+}
+
+.icono-bootstrap{
+    font-size: 1rem;
+}
