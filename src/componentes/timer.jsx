@@ -4,9 +4,9 @@ import '../hojas-estilo/timer.css';
 import { BsFillClockFill } from "react-icons/bs";
 
 
-function Timer() {
+function Timer({ tiempoInicial }) {
 
-  const [tiempo, setTiempo] = useState(60);
+  const [tiempo, setTiempo] = useState(tiempoInicial);
 
   useEffect(() => {
     const intervaloCuentaAtras = setInterval(() => {

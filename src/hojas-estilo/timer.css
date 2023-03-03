@@ -14,7 +14,7 @@
 .contendor-timer-reloj{
     height: 50%;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: flex-end;
     font-family: 'Tilt Warp', cursive;
     font-size: 1.5rem;
